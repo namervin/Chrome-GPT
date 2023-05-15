@@ -24,7 +24,7 @@ from chromegpt.main import run_chromegpt
 def main(
     task: str,
     agent: str,
-    model: str = "gpt-3.5-turbo",
+    model: str = "gpt-4",
     headless: bool = False,
     verbose: bool = False,
     human_in_loop: bool = False,

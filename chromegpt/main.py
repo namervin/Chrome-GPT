@@ -5,7 +5,7 @@ from chromegpt.agent.zeroshot import BabyAGIAgent, ZeroShotAgent
 
 def run_chromegpt(
     task: str,
-    model: str = "gpt-3.5-turbo",
+    model: str = "gpt-4",
     agent: str = "zero-shot",
     headless: bool = False,
     verbose: bool = False,
